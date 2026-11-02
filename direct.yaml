@@ -1,4 +1,162 @@
-# Custom DIRECT rules for Mihomo / Clash Verge Rev
-# Add domains below. DOMAIN-SUFFIX matches the domain and subdomains.
+# Personal DIRECT rule-provider (behavior: classical)
+# Maintained for Clash Verge Rev / Mihomo. Domain names only; no proxy credentials.
+# These are opt-in forced-DIRECT destinations; actual reachability depends on your network.
 payload:
-  - DOMAIN-SUFFIX,example.com
+# 计算化学社区与中文科研资源
+  - DOMAIN-SUFFIX,sobereva.com
+  - DOMAIN-SUFFIX,umsyar.com
+  - DOMAIN-SUFFIX,keinsci.com
+  - DOMAIN-SUFFIX,qchem.pw
+  - DOMAIN-SUFFIX,edu.cn
+  - DOMAIN-SUFFIX,ac.cn
+  - DOMAIN-SUFFIX,cnki.net
+  - DOMAIN-SUFFIX,wanfangdata.com.cn
+  - DOMAIN-SUFFIX,cqvip.com
+  - DOMAIN-SUFFIX,sciengine.com
+  - DOMAIN-SUFFIX,sciencechina.cn
+  - DOMAIN-SUFFIX,chinaxiv.org
+  - DOMAIN-SUFFIX,paper.edu.cn
+
+# 文献检索、索引和学术身份
+  - DOMAIN-SUFFIX,webofscience.com
+  - DOMAIN-SUFFIX,webofknowledge.com
+  - DOMAIN-SUFFIX,clarivate.com
+  - DOMAIN-SUFFIX,endnote.com
+  - DOMAIN-SUFFIX,scopus.com
+  - DOMAIN-SUFFIX,dimensions.ai
+  - DOMAIN-SUFFIX,the-lens.org
+  - DOMAIN-SUFFIX,lens.org
+  - DOMAIN-SUFFIX,semanticscholar.org
+  - DOMAIN-SUFFIX,openalex.org
+  - DOMAIN-SUFFIX,crossref.org
+  - DOMAIN-SUFFIX,doi.org
+  - DOMAIN-SUFFIX,orcid.org
+  - DOMAIN-SUFFIX,researcherid.com
+  - DOMAIN-SUFFIX,pubmed.gov
+  - DOMAIN-SUFFIX,ncbi.nlm.nih.gov
+  - DOMAIN-SUFFIX,europepmc.org
+  - DOMAIN-SUFFIX,jstor.org
+  - DOMAIN-SUFFIX,ebscohost.com
+  - DOMAIN-SUFFIX,proquest.com
+  - DOMAIN-SUFFIX,engineeringvillage.com
+  - DOMAIN-SUFFIX,inspec.org
+  - DOMAIN-SUFFIX,mathscinet.ams.org
+  - DOMAIN-SUFFIX,zbmath.org
+
+# 综合性期刊及主要出版商
+  - DOMAIN-SUFFIX,nature.com
+  - DOMAIN-SUFFIX,springer.com
+  - DOMAIN-SUFFIX,springerlink.com
+  - DOMAIN-SUFFIX,springernature.com
+  - DOMAIN-SUFFIX,biomedcentral.com
+  - DOMAIN-SUFFIX,science.org
+  - DOMAIN-SUFFIX,sciencemag.org
+  - DOMAIN-SUFFIX,aaas.org
+  - DOMAIN-SUFFIX,cell.com
+  - DOMAIN-SUFFIX,cellpress.com
+  - DOMAIN-SUFFIX,pnas.org
+  - DOMAIN-SUFFIX,elsevier.com
+  - DOMAIN-SUFFIX,sciencedirect.com
+  - DOMAIN-SUFFIX,wiley.com
+  - DOMAIN-SUFFIX,wiley-vch.de
+  - DOMAIN-SUFFIX,rsc.org
+  - DOMAIN-SUFFIX,acs.org
+  - DOMAIN-SUFFIX,aip.org
+  - DOMAIN-SUFFIX,scitation.org
+  - DOMAIN-SUFFIX,aps.org
+  - DOMAIN-SUFFIX,iop.org
+  - DOMAIN-SUFFIX,iopscience.org
+  - DOMAIN-SUFFIX,tandfonline.com
+  - DOMAIN-SUFFIX,taylorfrancis.com
+  - DOMAIN-SUFFIX,sagepub.com
+  - DOMAIN-SUFFIX,annualreviews.org
+  - DOMAIN-SUFFIX,oup.com
+  - DOMAIN-SUFFIX,oxfordacademic.com
+  - DOMAIN-SUFFIX,cambridge.org
+  - DOMAIN-SUFFIX,degruyter.com
+  - DOMAIN-SUFFIX,brill.com
+  - DOMAIN-SUFFIX,worldscientific.com
+  - DOMAIN-SUFFIX,emerald.com
+  - DOMAIN-SUFFIX,emeraldinsight.com
+  - DOMAIN-SUFFIX,mdpi.com
+  - DOMAIN-SUFFIX,frontiersin.org
+  - DOMAIN-SUFFIX,hindawi.com
+  - DOMAIN-SUFFIX,plos.org
+  - DOMAIN-SUFFIX,peerj.com
+  - DOMAIN-SUFFIX,karger.com
+  - DOMAIN-SUFFIX,thieme-connect.com
+  - DOMAIN-SUFFIX,thieme.com
+  - DOMAIN-SUFFIX,degruyterbrill.com
+  - DOMAIN-SUFFIX,copernicus.org
+  - DOMAIN-SUFFIX,agu.org
+  - DOMAIN-SUFFIX,agupubs.onlinelibrary.wiley.com
+  - DOMAIN-SUFFIX,ametsoc.org
+  - DOMAIN-SUFFIX,journals.ametsoc.org
+  - DOMAIN-SUFFIX,asme.org
+  - DOMAIN-SUFFIX,ascelibrary.org
+  - DOMAIN-SUFFIX,aiche.org
+  - DOMAIN-SUFFIX,chemistry-europe.org
+  - DOMAIN-SUFFIX,chemistryworld.com
+
+# 工程、计算机、物理及专业学会
+  - DOMAIN-SUFFIX,ieee.org
+  - DOMAIN-SUFFIX,ieeexplore.ieee.org
+  - DOMAIN-SUFFIX,acm.org
+  - DOMAIN-SUFFIX,dl.acm.org
+  - DOMAIN-SUFFIX,spie.org
+  - DOMAIN-SUFFIX,spiedigitallibrary.org
+  - DOMAIN-SUFFIX,optica.org
+  - DOMAIN-SUFFIX,opg.optica.org
+  - DOMAIN-SUFFIX,osapublishing.org
+  - DOMAIN-SUFFIX,siam.org
+  - DOMAIN-SUFFIX,ams.org
+  - DOMAIN-SUFFIX,aip.scitation.org
+  - DOMAIN-SUFFIX,jstage.jst.go.jp
+  - DOMAIN-SUFFIX,jst.go.jp
+  - DOMAIN-SUFFIX,koreascience.kr
+  - DOMAIN-SUFFIX,iopscience.iop.org
+
+# 预印本、开放获取与科研数据
+  - DOMAIN-SUFFIX,arxiv.org
+  - DOMAIN-SUFFIX,chemrxiv.org
+  - DOMAIN-SUFFIX,biorxiv.org
+  - DOMAIN-SUFFIX,medrxiv.org
+  - DOMAIN-SUFFIX,researchsquare.com
+  - DOMAIN-SUFFIX,ssrn.com
+  - DOMAIN-SUFFIX,osf.io
+  - DOMAIN-SUFFIX,zenodo.org
+  - DOMAIN-SUFFIX,figshare.com
+  - DOMAIN-SUFFIX,datadryad.org
+  - DOMAIN-SUFFIX,dataverse.org
+  - DOMAIN-SUFFIX,core.ac.uk
+  - DOMAIN-SUFFIX,doaj.org
+  - DOMAIN-SUFFIX,unpaywall.org
+  - DOMAIN-SUFFIX,openaccessbutton.org
+  - DOMAIN-SUFFIX,hal.science
+
+# 计算材料、结构数据库及科学软件
+  - DOMAIN-SUFFIX,materialsproject.org
+  - DOMAIN-SUFFIX,materialscloud.org
+  - DOMAIN-SUFFIX,aflowlib.org
+  - DOMAIN-SUFFIX,oqmd.org
+  - DOMAIN-SUFFIX,nomad-lab.eu
+  - DOMAIN-SUFFIX,crystallography.net
+  - DOMAIN-SUFFIX,fiz-karlsruhe.de
+  - DOMAIN-SUFFIX,mpds.io
+  - DOMAIN-SUFFIX,openkim.org
+  - DOMAIN-SUFFIX,nist.gov
+  - DOMAIN-SUFFIX,pymatgen.org
+  - DOMAIN-SUFFIX,ase-lib.org
+  - DOMAIN-SUFFIX,cp2k.org
+  - DOMAIN-SUFFIX,vasp.at
+  - DOMAIN-SUFFIX,quantum-espresso.org
+  - DOMAIN-SUFFIX,abinit.org
+  - DOMAIN-SUFFIX,lammps.org
+  - DOMAIN-SUFFIX,gromacs.org
+  - DOMAIN-SUFFIX,psi4.org
+  - DOMAIN-SUFFIX,molpro.net
+  - DOMAIN-SUFFIX,nwchem-sw.org
+  - DOMAIN-SUFFIX,faccts.de
+  - DOMAIN-SUFFIX,openbabel.org
+  - DOMAIN-SUFFIX,rdkit.org
+  - DOMAIN-SUFFIX,cccbdb.nist.gov
