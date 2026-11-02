@@ -1,0 +1,4 @@
+# Custom DIRECT rules for Mihomo / Clash Verge Rev
+# Add domains below. DOMAIN-SUFFIX matches the domain and subdomains.
+payload:
+  - DOMAIN-SUFFIX,example.com
