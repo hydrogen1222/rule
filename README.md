@@ -4,7 +4,7 @@
 
 ## 已包含的站点类别
 
-- **计算化学社区**：思想家公社的门口（`sobereva.com` / `umsyar.com`）、计算化学公社（`keinsci.com`）、`qchem.pw`。
+- **计算化学社区**：思想家公社的门口（`sobereva.com`）、计算化学公社（`keinsci.com`）、`qchem.pw`。
 - **文献与引文数据库**：Web of Science、Scopus、Crossref、DOI、ORCID、OpenAlex、Dimensions、PubMed 等。
 - **出版商及期刊**：Elsevier / ScienceDirect、Springer Nature、Wiley、ACS、RSC、Science、Cell、PNAS、AIP、APS、IOP、IEEE、ACM、MDPI 等。
 - **开放科学**：arXiv、ChemRxiv、bioRxiv、Zenodo、Figshare 等。
